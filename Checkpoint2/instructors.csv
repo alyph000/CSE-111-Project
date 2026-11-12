@@ -1,0 +1,375 @@
+instructor_id,"instructor_firstname
+","instructor_lastname
+","instructor_email
+","instructor_department_id
+"
+1,Arian,Aghilinejad,aaghilinejad@ucmerced.edu,1
+2,Eva,de Alba,edealbabastarrechea@ucmerced.edu,1
+3,Hirosha,Geekiyanage,dgeekiyanage@ucmerced.edu,1
+4,Arvind,Gopinapth,agopinath@ucmerced.edu,1
+5,Victor,Muñoz,vmunoz3@ucmerced.edu,1
+6,Sushma,Shrinivasan,sshrinivasan@ucmerced.edu,1
+7,Joel,Spencer,joel.spencer@ucmerced.edu,1
+8,Anand,Subramaniam,asubramaniam@ucmerced.edu,1
+9,Ahmed,Arif,asarif@ucmerced.edu,4
+10,Stefano,Carpin,scarpin@ucmerced.edu,4
+11,Miguel,Carreira-Perpiñán,mcarreira-perpinan@ucmerced.edu,4
+12,Alberto,Cerpa,acerpa@ucmerced.edu,4
+13,Santosh,Chandrasekhar,schandrasekhar@ucmerced.edu,4
+14,Wan,Du,wdu3@ucmerced.edu,4
+15,Giovanni,Gonzales Araujo,ggonzalezaraujo@ucmerced.edu,4
+16,Ross,Greer,rossgreer@ucmerced.edu,4
+17,Hua ,Huang,hhuang80@ucmerced.edu,4
+18,Hyeran,Jeon,hjeon7@ucmerced.edu,4
+19,Angelo,Kyrilov,akyrilov@ucmerced.edu,4
+20,Dong ,Li,dli35@ucmerced.edu,4
+21,Xiaoyi,Lu,xiaoyi.lu@ucmerced.edu,4
+22,Shawn,Newsam,snewsam@ucmerced.edu,4
+23,Shijia,Pan,span24@ucmerced.edu,4
+24,Florin,Rusu,frusu@ucmerced.edu,4
+25,Pengfei,Su ,psu9@ucmerced.edu,4
+26,Meng ,Tang,mtang4@ucmerced.edu,4
+27,Ming-Hsuan,Yang,mhyang@ucmerced.edu,4
+28,Roger,Bales,rbales@ucmerced.edu,3
+29,Asmeret,Asefaw Berhe,aaberhe@ucmerced.edu,3
+30,Marc,Beutel,mbeutel@ucmerced.edu,3
+31,Martha,Conklin,mconklin@ucmerced.edu,3
+32,Visar,Farhangi,visarfarhangi@ucmerced.edu,3
+33,Abbas,Ghassemi,aghassemi2@ucmerced.edu,3
+34,Rakesh,Goel,NA,3
+35,Thomas,Harmon,tharmon@ucmerced.edu,3
+36,Erin,Hester,ehestir@ucmerced.edu,3
+37,Safeeq,Khan,msafeeq@ucmerced.edu,3
+38,Marina,Garcia Lopez-Arias,lopezarias@ucmerced.edu,3
+39,Sam ,Markolf,smarkolf@ucmerced.edu,3
+40,Mark,Matsumoto,mmatsumoto@ucmerced.edu,3
+41,Josué,Medellín-Azuara,jmedellin@ucmerced.edu,3
+42,Colleen,Naughton,cnaughton2@ucmerced.edu,3
+43,Tapan,Pathak,tpathak@ucmerced.edu,3
+44,Thomas,Peterson,twpeterson@ucmerced.edu,3
+45,Robert,Rice,NA,3
+46,Samuel,Traina,straina@ucmerced.edu,3
+47,Joshua,Viers,jviers@ucmerced.edu,3
+48,Siddaiah,Yarra,syarra@ucmerced.edu,3
+49,Roberto,Andresen Equiluz,randreseneguiluz@ucmerced.edu,5
+50,Wei-Chun,Chin,wchin2@ucmerced.edu,5
+51,Jason,Fang,yfang26@ucmerced.edu,5
+52,Catherine ,Keske,ckeske@ucmerced.edu,5
+53,Edward,Kolodka,ekolodka@ucmerced.edu,5
+54,Valerie,Leppert,vleppert@ucmerced.edu,5
+55,Jennifer ,Lu,jlu5@ucmerced.edu,5
+56,Kara,McCloskey,kmccloskey@ucmerced.edu,5
+57,Elizabeth,Nowadnick,enowadnick@ucmerced.edu,5
+58,Christopher,Viney,cviney@ucmerced.edu,5
+59,Yue,Wang,yuewang@ucmerced.edu,5
+60,Venkattraman,Ayyaswamy,vayyaswamy@ucmerced.edu,6
+61,Mehmet,Z. Baykara,mehmet.baykara@ucmerced.edu,6
+62,Po-Ya,Abel Chuang,achuang5@ucmerced.edu,6
+63,Francesco ,Danzi,fdanzi@ucmerced.edu,6
+64,Gerardo ,Diaz,gdiaz@ucmerced.edu,6
+65,Reza,Ehsani,rehsani@ucmerced.edu,6
+66,Sachin,Goyal,sgoyal2@ucmerced.edu,6
+67,Alejandro,Gutiérrez,agutierrez78@ucmerced.edu,6
+68,Marcus,Lee,mlee406@ucmerced.edu,6
+69,Min Hwan,Lee,mlee49@ucmerced.edu,6
+70,Yanbao,Ma ,yma5@ucmerced.edu,6
+71,Ashlie,Martini,amartini@ucmerced.edu,6
+72,Michael,Modest,mmodest@ucmerced.edu,6
+73,James,Palko,NA,6
+74,Samarth,Patel,samarthpatel@ucmerced.edu,6
+75,Ricardo,Pinto de Castro,rpintodecastro@ucmerced.edu,6
+76,Debora,Lyn Porter,deboralynporter@ucmerced.edu,6
+77,Jian-Qiao,Sun,jsun3@ucmerced.edu,6
+78,John,Abatzoglou,jabatzoglou@ucmerced.edu,7
+79,Anita ,Bhappu,abhappu@ucmerced.edu,7
+80,Spencer,Castro,scastro39@ucmerced.edu,7
+81,Jeffrey,Jenkins,jjenkins8@ucmerced.edu,7
+82,Crystal A.,Kolden,ckolden@ucmerced.edu,7
+83,Tea,Lempiälä,tlempiala@ucmerced.edu,7
+84,Paul,Maglio,pmaglio@ucmerced.edu,7
+85,Russ,McBride,rmcbride2@ucmerced.edu,7
+86,Tracey,Osborne,tosborne@ucmerced.edu,7
+87,Alexander M.,Petersen,apetersen3@ucmerced.edu,7
+88,LeRoy,Westerling,lwesterling@ucmerced.edu,7
+89,Lisa,Yeo,lyeo2@ucmerced.edu,7
+90,Eric,Cheng,ericcheng@ucmerced.edu,2
+91,Sarah,Kurtz,skurtz@ucmerced.edu,2
+92,Changqing,Li,cli32@ucmerced.edu,2
+93,Ayush,Pandey,ayushpandey@ucmerced.edu,2
+94,Mukesh,Singhal ,msinghal@ucmerced.edu,2
+95,Qiang,Wang,NA,2
+96,Xiaofan,Yu,xiaofanyu@ucmerced.edu,2
+97,Harish S.,Bhat,hbhat@ucmerced.edu,8
+98,Francois,Blanchette,fblanchette@ucmerced.edu,8
+99,Rosemarie,Bongers,rosemariebongers@ucmerced.edu,8
+100,Amelia,Farid,mfarid@ucmerced.edu,8
+101,Boaz ,Ilan,bilan@ucmerced.edu,8
+102,Shilpa,Khatri,skhatri3@ucmerced.edu,8
+103,Arnold D.,Kim,adkim@ucmerced.edu,8
+104,Changho,Kim,ckim103@ucmerced.edu,8
+105,Yue,Lei,ylei2@ucmerced.edu,8
+106,Roummel,Marcia,rmarcia@ucmerced.edu,8
+107,Reshma,Menon,menon@ucmerced.edu,8
+108,Juan C.,Meza,jcmeza@ucmerced.edu,8
+109,Noemi ,Petra,npetra@ucmerced.edu,8
+110,Tomas,Rube,trube@ucmerced.edu,8
+111,Erica,Rutter,erutter2@ucmerced.edu,8
+112,Suzanne,Sindi,ssindi@ucmerced.edu,8
+113,Mayya,Tokman,mtokman@ucmerced.edu,8
+114,Chrysoula,Tsogka,ctsogka@ucmerced.edu,8
+115,Andy,Wan ,andywan@ucmerced.edu,8
+116,Rebeca,Arevalo,rarevalo8@ucmerced.edu,9
+117,Ryan,Baxter,rbaxter@ucmerced.edu,9
+118,Michael,Findlater,michaelfindlater@ucmerced.edu,9
+119,Hrant,Hratchian,hhratchian@ucmerced.edu,9
+120,Christine,Isborn,cisborn@ucmerced.edu,9
+121,Henrik,Larsson,larsson@ucmerced.edu,9
+122,Jennifer D. ,Lee,jenniferlee@ucmerced.edu,9
+123,Michelle,Leslie,jmleslie@ucmerced.edu,9
+124,Andy,LiWang,aliwang@ucmerced.edu,9
+125,Andrea,Merg,amerg@ucmerced.edu,9
+126,Son C.,Nguyen,son@ucmerced.edu,9
+127,Aleksandr,Noy,anoy@ucmerced.edu,9
+128,Aurora,Pribram-Jones,apribram-jones@ucmerced.edu,9
+129,Liang,Shi,lshi4@ucmerced.edu,9
+130,Michael,Thompson,mthompson30@ucmerced.edu,9
+131,Tao,Ye ,tye2@ucmerced.edu,9
+132,Adeyemi,Adebiyi,NA,10
+133,J. Michael,Beman,mbeman@ucmerced.edu,10
+134,Gordon,Bennett,gbennett2@ucmerced.edu,10
+135,Jessica,Blois,jblois@ucmerced.edu,10
+136,Michael N.,Dawson,mdawson@ucmerced.edu,10
+137,Elizabeth,Dumont,edumont@ucmerced.edu,10
+138,Melinda,Findlater,mindyfindlater@ucmerced.edu,10
+139,A. Carolin,Frank,cfrank3@ucmerced.edu,10
+140,Marilia P.,Gaiarsa,mgaiarsa@ucmerced.edu,10
+141,Teamrat A.,Ghezzehei,taghezzehei@ucmerced.edu,10
+142,Stephen C.,Hart,shart4@ucmerced.edu,10
+143,Matt,Hutchinson,mhutchinson6@ucmerced.edu,10
+144,Sora,Kim,skim380@ucmerced.edu,10
+145,Claire,Lukens,clukens@ucmerced.edu,10
+146,Sylvain,Masclin,smasclin@ucmerced.edu,10
+147,Emily Jane,McTavish,ejmctavish@ucmerced.edu,10
+148,Emily,Moran,emoran5@ucmerced.edu,10
+149,Peggy,O’Day,poday@ucmerced.edu,10
+150,Rebecca,Ryals,rryals@ucmerced.edu,10
+151,Susannah,Tringe,sgtringe@lbl.gov,10
+152,Tanja,Woyke,twoyke@ucmerced.edu,10
+153,Justin,Yeakel,jyeakel@ucmerced.edu,10
+154,Xuan,Zhang,xzhang87@ucmerced.edu,10
+155,Chris ,Amemiya,camemiya@ucmerced.edu,11
+156,David,Ardell,dardell@ucmerced.edu,11
+157,Miriam,Barlow,mbarlow@ucmerced.edu,11
+158,Laura,Beaster-Jones,lbeaster-jones@ucmerced.edu,11
+159,Ruben ,Michael Ceballos,rceballos@ucmerced.edu,11
+160,Bercem,Dutagaci,bdutagaci@ucmerced.edu,11
+161,Juris,Grasis,jagrasis@ucmerced.edu,11
+162,Aaron D.,Hernday,ahernday@ucmerced.edu,11
+163,Katrina,Hoyer,khoyer2@ucmerced.edu,11
+164,Kirk,Jensen,kjensen5@ucmerced.edu,11
+165,Patricia,LiWang,pliwang@ucmerced.edu,11
+166,Jennifer O. ,Manilay,jmanilay@ucmerced.edu,11
+167,Stefan,Manterna,NA,11
+168,Michele,Nishiguchi,nish@ucmerced.edu,11
+169,Clarissa,Nobile,cnobile@ucmerced.edu,11
+170,Rudy M.,Ortiz,rortiz@ucmerced.edu,11
+171,Nestor,Oviedo,noviedo2@ucmerced.edu,11
+172,Scott,Roy,sroy5@ucmerced.edu,11
+173,Ramen,Saha,rsaha3@ucmerced.edu,11
+174,Kelly,Shepardson,kshepardson2@ucmerced.edu,11
+175,E. Maggie,Sogin,esogin@ucmerced.edu,11
+176,Axel,Visel,avisel@ucmerced.edu,11
+177,Zhong,Wang,zwang37@ucmerced.edu,11
+178,Fred,Wolf,fwolf@ucmerced.edu,11
+179,Stephanie,Woo,swoo6@ucmerced.edu,11
+180,Maria-Elena,Zoghbi,mzoghbi@ucmerced.edu,11
+181,Hui,Cai,hcai6@ucmerced.edu,12
+182,Raymond,Chiao,rchiao@ucmerced.edu,12
+183,Chih-Chun,Chien,NA,12
+184,Kinjal,Dasbiswas,kdasbiswas@ucmerced.edu,12
+185,Sayantani,Ghosh,sghosh@ucmerced.edu,12
+186,Ajay,Gopinathan,NA,12
+187,Linda S.,Hirst,lhirst@ucmerced.edu,12
+188,Dustin,Kleckner,dkleckner@ucmerced.edu,12
+189,Bin,Liu,bliu27@ucmerced.edu,12
+190,Sarah,Loebman,sloebman@ucmerced.edu,12
+191,Kevin,Mitchell,kmitchell@ucmerced.edu,12
+192,Anna,Nierenberg,anierenberg@ucmerced.edu,12
+193,Michael,Schneiber,mscheibner@ucmerced.edu,12
+194,Jay E.,Sharping,jsharping@ucmerced.edu,12
+195,David,Strubbe,dstrubbe@ucmerced.edu,12
+196,Lin ,Tian,ltian@ucmerced.edu,12
+197,Brian,Utter,brianutter@ucmerced.edu,12
+198,Gillian,Wilson,gwilson@ucmerced.edu,12
+199,Jing,Xu,jxu8@ucmerced.edu,12
+200,James,Zimmerman,jzimmerman6@ucmerced.edu,12
+201,Mark,Aldenderfer,maldenderfer@ucmerced.edu,13
+202,Robin Maria,DeLugan,rdelugan@ucmerced.edu,13
+203,Kathleen,Hull,khull3@ucmerced.edu,13
+204,Holley,Moyes,hmoyes@ucmerced.edu,13
+205,Linda-Anne,Rebhun,lrebhun@ucmerced.edu,13
+206,Cassandra “Beth”,Scaffidi,cscaffidi@ucmerced.edu,13
+207,Daniel,Thompson,dthompson29@ucmerced.edu,13
+208,Stephen,Wooding,swooding@ucmerced.edu,13
+209,Aditi,Chandra ,achandra4@ucmerced.edu,14
+210,Maria ,DePrano,mdeprano@ucmerced.edu,14
+211,ShiPu,Wang,swang7@ucmerced.edu,14
+212,Kenichi,Yoshida,kyoshida@ucmerced.edu,14
+213,Jiajun,Liang,jliang74@ucmerced.edu,14
+214,Tonya,Lopez-Craig,NA,14
+215,Dunya,Ramicova,dramicova@ucmerced.edu,14
+216,Zenaida,Aguirre-Munoz,zaguirre-munoz@ucmerced.edu,16
+217,Kristina,Backer,kbacker@ucmerced.edu,16
+218,Ramesh,Balasubramaniam,ramesh@ucmerced.edu,16
+219,Colin,Holbrook,cholbrook@ucmerced.edu,16
+220,Christopher,Kello,ckello@ucmerced.edu,16
+221,Tyler,Marghetis,tmarghetis@ucmerced.edu,16
+222,Teenie,Matlock,tmatlock@ucmerced.edu,16
+223,David C.,Noelle,dnoelle@ucmerced.edu,16
+224,Rachel,Ryskin,rryskin@ucmerced.edu,16
+225,Antione,Shahin,NA,16
+226,Paul,Smaldino,psmaldino@ucmerced.edu,16
+227,Michael J.,Spivey,spivey@ucmerced.edu,16
+228,Myles,Ali,mali10@ucmerced.edu,17
+229,Christina,Baker,cbaker26@ucmerced.edu,17
+230,Sapana,Doshi,sdoshi3@ucmerced.edu,17
+231,Kit,Myers,kmyers6@ucmerced.edu,17
+232,Nicosia,Shakes,nshakes@ucmerced.edu,17
+233,Ma ,Vang,mvang53@ucmerced.edu,17
+234,Heather,Bortfeld,hbortfeld@ucmerced.edu,18
+235,Jeffrey,GIlger,jgilger@ucmerced.edu,18
+236,Alexandra,Main,amain@ucmerced.edu,18
+237,Rose ,Scott,rscott@ucmerced.edu,18
+238,Eric A.,Walle,ewalle@ucmerced.edu,18
+239,Catalina,Amuedo-Dorantes,camuedo-dorantes@ucmerced.edu,19
+240,Briana,Ballis,bballis@ucmerced.edu,19
+241,Christian,Fons-Rosen,cfons-rosen@ucmerced.edu,19
+242,Grant,Goehring,ggoehring@ucmerced.edu,19
+243,Rowena,Gray,rgray6@ucmerced.edu,19
+244,Zachary,Grossman,zgrossman@ucmerced.edu,19
+245,Justin,Hicks,jhicks@ucmerced.edu,19
+246,Robert ,Innes ,rinnes@ucmerced.edu,19
+247,Esra,Kose,esrakose@ucmerced.edu,19
+248,Jason,Lee,jlee287@ucmerced.edu,19
+249,Jamie,McCasland,jamiemccasland@ucmerced.edu,19
+250,Jesus,Sandoval-Hernandez,jsandoval-hernandez@ucmerced.edu,19
+251,Kurt,Schnier,kschnier@ucmerced.edu,19
+252,Theofanis,Tsoulouhas,ftsoulouhas@ucmerced.edu,19
+253,Ana ,Tur-Prats,atur-prats@ucmerced.edu,19
+254,Greg,Wright,gwright4@ucmerced.edu,19
+255,Jayson,Beaster-Jones,jbeaster-jones@ucmerced.edu,17
+256,Eunjoo,Choi,eunjoochoi@ucmerced.edu,14
+257,Jinah,Kim,jinahkim@ucmerced.edu,14
+258,Cynthia,McLeod,cynthiamcleod@ucmerced.edu,14
+259,ShiPu,Wang,swang7@ucmerced.edu,14
+260,Yiran ,Xu,yxu72@ucmerced.edu,14
+261,Linda ,Cameron,lcameron@ucmerced.edu,18
+262,Jennifer ,Hahn-Holbrook,jhahn-holbrook@ucmerced.edu,18
+263,Jennifer ,Howell,howell@ucmerced.edu,18
+264,Anna V.,Song,asong5@ucmerced.edu,18
+265,Deborah,Wiebe,dwiebe@ucmerced.edu,18
+266,Matthew,Zawadzki,mzawadzki@ucmerced.edu,18
+267,Susan,Amussen,samussen@ucmerced.edu,20
+268,Kevin,Dawson,kdawson4@ucmerced.edu,20
+269,Gregg,Herken,gherken@ucmerced.edu,20
+270,Sean,Malloy,smalloy@ucmerced.edu,20
+271,Maria ,Martin,mmartin360@ucmerced.edu,20
+272,Sholeh A.,Quinn,squinn@ucmerced.edu,20
+273,David,Rouff,dtorres-rouff@ucmerced.edu,20
+274,Muey,Saeteurn,msaeteurn3@ucmerced.edu,20
+275,Mario,Sifuentez,msifuentez@ucmerced.edu,20
+276,Sabrina,Smith,sesmith@ucmerced.edu,20
+277,Arturo,Arias,aarias26@ucmerced.edu,21
+278,Fatima,Burney,fburney@ucmerced.edu,21
+279,Weisong,Gao,wgao4@ucmerced.edu,21
+280,Humberto,Garcia,hgarcia22@ucmerced.edu,21
+281,Nigel,Hatton,nhatton@ucmerced.edu,21
+282,Mai-Linh,Hong,hongm@ucmerced.edu,21
+283,Bristin,Scalzo Jones,bjones34@ucmerced.edu,21
+284,Matthew,Kaiser,mkaiser2@ucmerced.edu,21
+285,Felicia,Lopez,flopez44@ucmerced.edu,21
+286,Ignacio,Lopez-Calvo,ilopez-calvo@ucmerced.edu,21
+287,Dalia,Magaña,dmagana6@ucmerced.edu,21
+288,Manuel,Martin-Rodriguez,mmartin-rodriguez@ucmerced.edu,21
+289,Christian H.,Ricci,cricci@ucmerced.edu,21
+290,Jill,Robins,jillrobbins@ucmerced.edu,21
+291,Gregg,Camfield,gcamfield@ucmerced.edu,21
+292,David,Kaminsky,dkaminsky@ucmerced.edu,14
+293,Lorena,Alvarado-Sharim,lalvarado10@ucmerced.edu,14
+294,Patricia,Vergara,pvergara2@ucmerced.edu,14
+295,Hanna,Gunn,hgunn@ucmerced.edu,22
+296,Daniel,Hicks,dhicks4@ucmerced.edu,22
+297,David,Jennings,djennings3@ucmerced.edu,22
+298,Carolyn Dicey,Jennings,cjennings3@ucmerced.edu,22
+299,Dorothy,Leland,NA,22
+300,Jeffrey,Yoshimi,jyoshimi@ucmerced.edu,22
+301,Marco,Alcocer,NA,23
+302,Leonardo,Arriola,sshadean@ucmerced.edu,23
+303,Aditya,Dasgupta,adasgupta3@ucmerced.edu,23
+304,Elaine,Denny,edenny@ucmerced.edu,23
+305,Thomas G.,Hansford,thansford@ucmerced.edu,23
+306,Matthew,Hibbing,mhibbing@ucmerced.edu,23
+307,Brad,LeVeck,bleveck@ucmerced.edu,23
+308,Anil,Menon,armenon@ucmerced.edu,23
+309,Courtenay R.,Monroe,courtenaymonroe@ucmerced.edu,23
+310,Nathan,Monroe,nmonroe2@ucmerced.edu,23
+311,Christopher,Ojeda,cojeda5@ucmerced.edu,23
+312,Tesalia Rizzo,Reyes,trizzo@ucmerced.edu,23
+313,Andrew,Shaver,ashaver@ucmerced.edu,23
+314,Nancy,Burke,nburke2@ucmerced.edu,24
+315,Sidra,Goldman-Mellor,sgoldman-mellor@ucmerced.edu,24
+316,Mayra,Bamaca,mbamaca@ucmerced.edu,18
+317,Sarah,DePaoli,sdepaoli@ucmerced.edu,18
+318,Anna E.,Epperson,aepperson@ucmerced.edu,18
+319,Martin,Hagger,mhagger@ucmerced.edu,18
+320,Elif,Isbell,eisbell@ucmerced.edu,18
+321,Jason,Isbell,jisbell@ucmerced.edu,18
+322,Fan,Jia,fjia3@ucmerced.edu,18
+323,Ren,Liu,rliu45@ucmerced.edu,18
+324,Haiyan,Liu,hliu62@ucmerced.edu,18
+325,Alexandra,Main,amain@ucmerced.edu,18
+326,Meng ,Qiu,NA,18
+327,Jan,Wallander,jwallander@ucmerced.edu,18
+328,Yueqi,Yan,NA,18
+329,Asa,Bradman,abradman@ucmerced.edu,24
+330,Alec,Chan-Golston,achan-golston@ucmerced.edu,24
+331,Ricardo,Cisneros,rcisneros@ucmerced.edu,24
+332,Lindsay,Crawford,lcrawford5@ucmerced.edu,24
+333,Arturo,Durazo,adurazo2@ucmerced.edu,24
+334,Xing,Gao,xinggao@ucmerced.edu,24
+335,Mariaelena,Gonzales,mgonzalez82@ucmerced.edu,24
+336,Sandie,Ha,sha55@ucmerced.edu,24
+337,Thelma,Hurd,thurd2@ucmerced.edu,24
+338,Andrea,Joyce,ajoyce2@ucmerced.edu,24
+339,A. Susana,Ramirez,sramirez37@ucmerced.edu,24
+340,Alexandra,Rivera-Gonzalez,arivera10@ucmerced.edu,24
+341,Irene,Yen,iyen@ucmerced.edu,24
+342,Jack L.,Vevea,jvevea@ucmerced.edu,18
+343,Paul,Almeida,palmeida@ucmerced.edu,25
+344,Irenee,Beattie,ibeattie@ucmerced.edu,25
+345,Kyle,Dodson,kdodson2@ucmerced.edu,25
+346,Charlie,Eaton,ceaton2@ucmerced.edu,25
+347,Edward,Flores,eflores52@ucmerced.edu,25
+348,Blythe,George,blythegeorge@ucmerced.edu,25
+349,Tanya,Golash-Boza,tgolash-boza@ucmerced.edu,25
+350,Laura,Hamilton,lhamilton2@ucmerced.edu,25
+351,Yang,Lor,ylor2@ucmerced.edu,25
+352,Amanda,Mireles,amireles5@ucmerced.edu,25
+353,Juan ,Munoz,chancellormunoz@ucmerced.edu,25
+354,Andrea,Polonijo,apolonijo@ucmerced.edu,25
+355,Daisy,Reyes,daisy.reyes@ucmerced.edu,25
+356,Zulema,Valdez,zvaldez@ucmerced.edu,25
+357,Nella,Van Dyke,nvandyke@ucmerced.edu,25
+358,Meredith,Van Natta,mvannatta@ucmerced.edu,25
+359,Elizabeth,Whitt,ewhitt@ucmerced.edu,25
+360,Marjorie,Zatz,mzatz@ucmerced.edu,25
+361,Yehuda,Sharim,ysharim@ucmerced.edu,14
+362,Karl,Ryavec,kryavec@ucmerced.edu,27
+363,Estee,Beck,ebeck2@ucmerced.edu,28
+364,Paul,Gibbons,pgibbons@ucmerced.edu,28
+365,Emily,Johnson,emilyjohnston@ucmerced.edu,28
+366,Samantha,Ocena,socena@ucmerced.edu,28
+367,Robert,Ochsner,rochsner@ucmerced.edu,28
+368,Susan,Varnot,svarnot@ucmerced.edu,28
+369,Anne,Zanzucchi,azanzucchi@ucmerced.edu,28
+370,Eileen,Camfield,ecamfield@ucmerced.edu,28
