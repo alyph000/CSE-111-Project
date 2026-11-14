@@ -78,11 +78,13 @@ PRAGMA foreign_keys = ON;
 -- ============================================================================
 
 -- ----------------------------------------------------------------------------
--- Statement 01: [Brief Title]
--- Explanation: [1 to 2 sentences explaining what data the query retrieves 
---              or what state modification it performs].
+-- Statement 01: Filter CSE Students
+-- Explanation: Retrieve the student first and last names, student email, and 
+--              student enrollment year for students majoring in CSE.
 -- ----------------------------------------------------------------------------
--- [Insert SQL Statement 01 Here];
+SELECT student_firstname, student_lastname, student_email, student_enrollment_year
+FROM Students
+WHERE student_major_department_id = 4;
 
 -- ----------------------------------------------------------------------------
 -- Statement 02: [Brief Title]
@@ -100,11 +102,15 @@ PRAGMA foreign_keys = ON;
 -- ============================================================================
 
 -- ----------------------------------------------------------------------------
--- Statement 11: [Brief Title]
--- Explanation: [1 to 2 sentences explaining the join logic, filtering, 
---              or conditional modification].
+-- Statement 11: Group Students by Major
+-- Explanation: Groups number of students by major/department and orders by 
+--              descending values (starting from the top majors)
 -- ----------------------------------------------------------------------------
--- [Insert SQL Statement 11 Here];
+SELECT department_name AS major, COUNT(*) AS count
+FROM Students
+JOIN Departments ON student_major_department_id = department_id
+GROUP BY department_id
+ORDER BY count DESC;
 
 -- [Continue Statements 12 through 21...]
 
