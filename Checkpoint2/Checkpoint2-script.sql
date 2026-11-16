@@ -14,8 +14,7 @@
 --  explicitly state: "No modifications made to the Checkpoint 1 schema."
 --
 -- Modifications:
--- 1. [Description of schema modification 1, or None]
--- 2. [Description of schema modification 2]
+-- 1. Removed unique constraints for some attributes to work with data
 -- ============================================================================
 
 -- ============================================================================
@@ -25,42 +24,42 @@
 -- below. Each statement must sum to 100% across the 2 team members.
 --
 -- SECTION 1: SIMPLE STATEMENTS
--- Statement 01: [Member 1]: XX%, [Member 2]: XX%
--- Statement 02: [Member 1]: XX%, [Member 2]: XX%
--- Statement 03: [Member 1]: XX%, [Member 2]: XX%
--- Statement 04: [Member 1]: XX%, [Member 2]: XX%
--- Statement 05: [Member 1]: XX%, [Member 2]: XX%
--- Statement 06: [Member 1]: XX%, [Member 2]: XX%
--- Statement 07: [Member 1]: XX%, [Member 2]: XX%
--- Statement 08: [Member 1]: XX%, [Member 2]: XX%
--- Statement 09: [Member 1]: XX%, [Member 2]: XX%
--- Statement 10: [Member 1]: XX%, [Member 2]: XX%
+-- Statement 01: Alyssa: 100%, Aman: XX%
+-- Statement 02: Alyssa: 100%, Aman: XX%
+-- Statement 03: Alyssa: 100%, Aman: XX%
+-- Statement 04: Alyssa: 100%, Aman: XX%
+-- Statement 05: Alyssa: 100%, Aman: XX%
+-- Statement 06: Alyssa: 100%, Aman: XX%
+-- Statement 07: Alyssa: XX%, Aman: XX%
+-- Statement 08: Alyssa: XX%, Aman: XX%
+-- Statement 09: Alyssa: XX%, Aman: XX%
+-- Statement 10: Alyssa: XX%, Aman: XX%
 --
 -- SECTION 2: INTERMEDIATE STATEMENTS
--- Statement 11: [Member 1]: XX%, [Member 2]: XX%
--- Statement 12: [Member 1]: XX%, [Member 2]: XX%
--- Statement 13: [Member 1]: XX%, [Member 2]: XX%
--- Statement 14: [Member 1]: XX%, [Member 2]: XX%
--- Statement 15: [Member 1]: XX%, [Member 2]: XX%
--- Statement 16: [Member 1]: XX%, [Member 2]: XX%
--- Statement 17: [Member 1]: XX%, [Member 2]: XX%
--- Statement 18: [Member 1]: XX%, [Member 2]: XX%
--- Statement 19: [Member 1]: XX%, [Member 2]: XX%
--- Statement 20: [Member 1]: XX%, [Member 2]: XX%
--- Statement 21: [Member 1]: XX%, [Member 2]: XX%
+-- Statement 11: Alyssa: 100%, Aman: XX%
+-- Statement 12: Alyssa: 100%, Aman: XX%
+-- Statement 13: Alyssa: 100%, Aman: XX%
+-- Statement 14: Alyssa: 100%, Aman: XX%
+-- Statement 15: Alyssa: 100%, Aman: XX%
+-- Statement 16: Alyssa: XX%, Aman: XX%
+-- Statement 17: Alyssa: XX%, Aman: XX%
+-- Statement 18: Alyssa: XX%, Aman: XX%
+-- Statement 19: Alyssa: XX%, Aman: XX%
+-- Statement 20: Alyssa: XX%, Aman: XX%
 --
 -- SECTION 3: COMPLEX STATEMENTS
--- Statement 22: [Member 1]: XX%, [Member 2]: XX%
--- Statement 23: [Member 1]: XX%, [Member 2]: XX%
--- Statement 24: [Member 1]: XX%, [Member 2]: XX%
--- Statement 25: [Member 1]: XX%, [Member 2]: XX%
--- Statement 26: [Member 1]: XX%, [Member 2]: XX%
--- Statement 27: [Member 1]: XX%, [Member 2]: XX%
--- Statement 28: [Member 1]: XX%, [Member 2]: XX%
--- Statement 29: [Member 1]: XX%, [Member 2]: XX%
--- Statement 30: [Member 1]: XX%, [Member 2]: XX%
--- Statement 31: [Member 1]: XX%, [Member 2]: XX%
--- Statement 32: [Member 1]: XX%, [Member 2]: XX%
+-- Statement 21: Alyssa; 100%, Aman: XX%
+-- Statement 22: Alyssa: XX%, Aman: XX%
+-- Statement 23: Alyssa: XX%, Aman: XX%
+-- Statement 24: Alyssa: XX%, Aman: XX%
+-- Statement 25: Alyssa: XX%, Aman: XX%
+-- Statement 26: Alyssa: XX%, Aman: XX%
+-- Statement 27: Alyssa: XX%, Aman: XX%
+-- Statement 28: Alyssa: XX%, Aman: XX%
+-- Statement 29: Alyssa: XX%, Aman: XX%
+-- Statement 30: Alyssa: XX%, Aman: XX%
+-- Statement 31: Alyssa: XX%, Aman: XX%
+-- Statement 32: Alyssa: XX%, Aman: XX%
 -- ============================================================================
 
 -- Ensure SQLite foreign key constraints are enforced
