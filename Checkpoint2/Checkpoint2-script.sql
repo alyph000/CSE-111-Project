@@ -32,8 +32,8 @@
 -- Statement 06: Alyssa: 100%, Aman: XX%
 -- Statement 07: Alyssa: 0%, Aman: 100%
 -- Statement 08: Alyssa: 0%, Aman: 100%
--- Statement 09: Alyssa: XX%, Aman: XX%
--- Statement 10: Alyssa: XX%, Aman: XX%
+-- Statement 09: Alyssa: 0%, Aman: 100%
+-- Statement 10: Alyssa: 0%, Aman: 100%
 --
 -- SECTION 2: INTERMEDIATE STATEMENTS
 -- Statement 11: Alyssa: 100%, Aman: XX%
@@ -135,6 +135,23 @@ FROM Students;
 UPDATE Students
 SET student_major_department_id = 4
 WHERE student_id = 1;
+
+-- ----------------------------------------------------------------------------
+-- Statement 09: Filter larger Lecture halls
+-- Explanation: Retrieve the building, room number, and capacity of classrooms
+-- that seat 100 or more students, ordered from largest to smallest.
+-- ----------------------------------------------------------------------------
+SELECT room_building, room_number, room_capacity
+FROM Classrooms
+WHERE room_capacity >= 100
+ORDER BY room_capacity DESC;
+
+-- ----------------------------------------------------------------------------
+-- Statement 10: Insert a new course prereq
+-- Explanation: Inserts a prerequisite requiring CSE 030 to be completed before CSE 100.
+-- ----------------------------------------------------------------------------
+INSERT INTO Prerequisites (prerequisite_course_id, prerequisite_prereq_course_id, prerequisite_requirement_type)
+VALUES (6634, 6629, 'Required');
 
 -- ============================================================================
 -- SECTION 2: INTERMEDIATE STATEMENTS (Roughly 10 Statements)
