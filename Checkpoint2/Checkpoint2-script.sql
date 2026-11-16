@@ -121,7 +121,7 @@ ORDER BY course_code ASC;
 -- Explanation: Inserts new course section data for CSE 100 in Fall 2025.
 -- ----------------------------------------------------------------------------
 INSERT INTO Sections (section_id, section_course_id, section_instructor_id, section_room_id, section_term, section_capacity, section_meeting_days, section_start_time, section_end_time)
-VALUES (1001, 4433, 25, 22, "Fall 2025", 150, "TR", "4:30", "5:45");
+VALUES (30000, 4433, 25, 22, "Fall 2025", 150, "TR", "4:30", "5:45");
 
 -- ============================================================================
 -- SECTION 2: INTERMEDIATE STATEMENTS (Roughly 10 Statements)
@@ -150,8 +150,8 @@ JOIN Instructors On section_instructor_id = instructor_id
 WHERE instructor_id = 25;
 
 -- ----------------------------------------------------------------------------
--- Statement 13: Sections With More Than 5 Students Enrolled
--- Explanation: Lists the sections that have more than 5 students enrolled
+-- Statement 13: Sections With More Than 20 Students Enrolled
+-- Explanation: Lists the sections that have more than 20 students enrolled
 -- ----------------------------------------------------------------------------
 SELECT *
 FROM Sections
@@ -161,7 +161,7 @@ WHERE section_id IN (
         SELECT enrollment_section_id, COUNT(*) AS cnt
         FROM Enrollments
         GROUP BY enrollment_section_id
-        HAVING cnt > 5
+        HAVING cnt > 20
     )
 );
 
@@ -213,4 +213,7 @@ FROM (
 ) 
 GROUP BY major;
 
--- [Continue Statements 23 through 32...]
+-- ----------------------------------------------------------------------------
+-- Statement 22: Set Difference (EXCEPT) for CSE Students Enrolled in CSE Courses
+-- Explanation: Find names and emails of CSE students enrolled in CSE 120 who have not been enrolled in CSE 107.
+-- ----------------------------------------------------------------------------
