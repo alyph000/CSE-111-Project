@@ -46,7 +46,7 @@ CREATE TABLE Instructors (
     instructor_id INTEGER PRIMARY KEY,
     instructor_firstname VARCHAR(20) NOT NULL,
     instructor_lastname VARCHAR(20) NOT NULL,
-    instructor_email VARCHAR(40) UNIQUE NOT NULL,
+    instructor_email VARCHAR(40) NOT NULL,
     instructor_department_id INTEGER,
     FOREIGN KEY (instructor_department_id) REFERENCES Departments(department_id)
 );
@@ -54,7 +54,7 @@ CREATE TABLE Instructors (
 CREATE TABLE Courses (
     course_id INTEGER PRIMARY KEY,
     course_department_id INTEGER NOT NULL,
-    course_code VARCHAR(10) UNIQUE NOT NULL,
+    course_code VARCHAR(10) NOT NULL,
     course_name VARCHAR(40) NOT NULL,
     course_credits INTEGER,
     course_description VARCHAR(255),
