@@ -30,8 +30,8 @@
 -- Statement 04: Alyssa: 100%, Aman: XX%
 -- Statement 05: Alyssa: 100%, Aman: XX%
 -- Statement 06: Alyssa: 100%, Aman: XX%
--- Statement 07: Alyssa: XX%, Aman: XX%
--- Statement 08: Alyssa: XX%, Aman: XX%
+-- Statement 07: Alyssa: 0%, Aman: 100%
+-- Statement 08: Alyssa: 0%, Aman: 100%
 -- Statement 09: Alyssa: XX%, Aman: XX%
 -- Statement 10: Alyssa: XX%, Aman: XX%
 --
@@ -120,6 +120,21 @@ ORDER BY course_code ASC;
 -- ----------------------------------------------------------------------------
 INSERT INTO Sections (section_id, section_course_id, section_instructor_id, section_room_id, section_term, section_capacity, section_meeting_days, section_start_time, section_end_time)
 VALUES (30000, 4433, 25, 22, "Fall 2025", 150, "TR", "4:30", "5:45");
+
+-- ----------------------------------------------------------------------------
+-- Statement 07: Count Total Students
+-- Explanation: Print the total number of students stored in the database using COUNT.
+-- ----------------------------------------------------------------------------
+SELECT COUNT(*) AS total_students
+FROM Students;
+
+-- ----------------------------------------------------------------------------
+-- Statement 08: Update Student Major
+-- Explanation: Changes the major of a student (id=1) to CSE, simulating a student changing majors.
+-- ----------------------------------------------------------------------------
+UPDATE Students
+SET student_major_department_id = 4
+WHERE student_id = 1;
 
 -- ============================================================================
 -- SECTION 2: INTERMEDIATE STATEMENTS (Roughly 10 Statements)
