@@ -49,17 +49,15 @@
 --
 -- SECTION 3: COMPLEX STATEMENTS
 -- Statement 21: Alyssa; 100%, Aman: XX%
--- Statement 22: Alyssa: XX%, Aman: XX%
--- Statement 23: Alyssa: XX%, Aman: XX%
--- Statement 24: Alyssa: XX%, Aman: XX%
+-- Statement 22: Alyssa: 100%, Aman: XX%
+-- Statement 23: Alyssa: 100%, Aman: XX%
+-- Statement 24: Alyssa: 100%, Aman: XX%
 -- Statement 25: Alyssa: XX%, Aman: XX%
 -- Statement 26: Alyssa: XX%, Aman: XX%
 -- Statement 27: Alyssa: XX%, Aman: XX%
 -- Statement 28: Alyssa: XX%, Aman: XX%
 -- Statement 29: Alyssa: XX%, Aman: XX%
 -- Statement 30: Alyssa: XX%, Aman: XX%
--- Statement 31: Alyssa: XX%, Aman: XX%
--- Statement 32: Alyssa: XX%, Aman: XX%
 -- ============================================================================
 
 -- Ensure SQLite foreign key constraints are enforced
@@ -97,7 +95,7 @@ VALUES (10001, "John","Smith", "jsmith@ucmerced.edu", 2026, 4);
 -- Explanation: Changes meeting times of section by 1 hour.
 -- ----------------------------------------------------------------------------
 UPDATE Sections
-SET section_start_time = "3:30", section_end_time = "4:45"
+SET section_start_time = "5:00", section_end_time = "6:45"
 WHERE section_id = 45;
 
 -- ----------------------------------------------------------------------------
@@ -198,7 +196,7 @@ WHERE section_id = 105;
 -- ============================================================================
 
 -- ----------------------------------------------------------------------------
--- Statement 21: Difference in Enrollment Between Years (2024-2025, 2025-2026)
+-- Statement 21: Difference in Enrollment Between Years (2024-2025, 2025-2026) Using CASE
 -- Explanation: Calculate the difference in major enrollment between 2024-2025 and 2025-2026.
 -- ----------------------------------------------------------------------------
 SELECT 
@@ -217,3 +215,80 @@ GROUP BY major;
 -- Statement 22: Set Difference (EXCEPT) for CSE Students Enrolled in CSE Courses
 -- Explanation: Find names and emails of CSE students enrolled in CSE 120 who have not been enrolled in CSE 107.
 -- ----------------------------------------------------------------------------
+SELECT student_firstname, student_lastname, student_email
+FROM Students
+JOIN Enrollments ON student_id = enrollment_student_id
+JOIN Sections ON enrollment_section_id = section_id
+JOIN Courses ON section_course_id = course_id
+WHERE course_code = 'CSE 120'
+EXCEPT
+SELECT student_firstname, student_lastname, student_email
+FROM Students
+JOIN Enrollments ON student_id = enrollment_student_id
+JOIN Sections ON enrollment_section_id = section_id
+JOIN Courses ON section_course_id = course_id
+WHERE course_code = 'CSE 107';
+
+-- ----------------------------------------------------------------------------
+-- Statement 23: CTE for Students with 3.0 GPA or Higher in Each Major
+-- Explanation: Calculate the number of students with a cumulative GPA of 3.0 or higher
+--              in each major.
+-- ----------------------------------------------------------------------------
+
+WITH grades AS (
+    SELECT 
+        student_id,
+        department_prefix AS major,
+        AVG(CASE enrollment_grade
+            WHEN 'A+' THEN 4.0
+            WHEN 'A' THEN 4.0
+            WHEN 'A-' THEN 3.7
+            WHEN 'B+' THEN 3.3
+            WHEN 'B' THEN 3.0
+            WHEN 'B-' THEN 2.7
+            WHEN 'C+' THEN 2.3
+            WHEN 'C' THEN 2.0
+            WHEN 'C-' THEN 1.7
+            WHEN 'D+' THEN 1.3
+            WHEN 'D' THEN 1.0
+            WHEN 'D-' THEN 0.7
+            WHEN 'F' THEN 0.0
+        END) AS gpa
+    FROM Students 
+    JOIN Departments ON student_major_department_id = department_id
+    JOIN Enrollments ON student_id = enrollment_student_id
+    GROUP BY student_id
+    HAVING gpa > 3.0
+)
+SELECT 
+    major,
+    COUNT(*) AS 'students with a cumulative GPA of 3.0 or higher'
+FROM grades
+GROUP BY major;
+
+-- ----------------------------------------------------------------------------
+-- Statement 24: CTE For Instructor Workload vs Department Avg Workload
+-- Explanation: Calculate total sections taught and total students per instructor and compares
+--              against the average workload in their department.
+-- ----------------------------------------------------------------------------
+
+WITH instructor_load AS (
+    SELECT 
+        instructor_id,
+        instructor_department_id,
+        instructor_email,
+        COUNT(DISTINCT section_id) AS sections_taught,
+        COUNT(enrollment_student_id) AS total_students
+    FROM Instructors 
+    LEFT JOIN Sections ON instructor_id = section_instructor_id
+    LEFT JOIN Enrollments ON section_id = enrollment_section_id
+    GROUP BY instructor_id
+)
+SELECT 
+    department_prefix,
+    instructor_email,
+    sections_taught,
+    total_students,
+    ROUND(AVG(total_students) OVER (PARTITION BY instructor_department_id), 1) AS dept_avg_students
+FROM instructor_load 
+JOIN Departments ON instructor_department_id = department_id;
