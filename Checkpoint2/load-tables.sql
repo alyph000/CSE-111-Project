@@ -1,5 +1,5 @@
 .open Checkpoint2-dbase.sqlite3
-.separator ,
+.mode csv
 .import --skip 1 departments.csv Departments
 .import --skip 1 instructors.csv Instructors
 .import --skip 1 classrooms.csv Classrooms
