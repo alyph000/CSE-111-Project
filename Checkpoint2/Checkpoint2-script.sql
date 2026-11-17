@@ -8,10 +8,6 @@
 -- ============================================================================
 -- SCHEMA MODIFICATIONS SINCE CHECKPOINT 1
 -- ============================================================================
--- Explain any modifications to your relational schema made since Checkpoint 1.
--- (e.g., added indexes, modified check constraints, renamed columns, or 
---  clarified weak entity vs. junction relationships). If no changes were made, 
---  explicitly state: "No modifications made to the Checkpoint 1 schema."
 --
 -- Modifications:
 -- 1. Removed unique constraints for some attributes to work with data
@@ -434,7 +430,7 @@ GROUP BY c.course_id
 ORDER BY levels_below_cse120 DESC;
 
 -- ----------------------------------------------------------------------------
--- Statement 27: Top 3 iinstructos per dept. by number of students taught
+-- Statement 27: Top 3 instructors per dept. by number of students taught
 -- Explanation: Ranks instructors within each department by total students taught
 -- using DENSE_RANK, and shows the top 3 in every department.
 -- ----------------------------------------------------------------------------
