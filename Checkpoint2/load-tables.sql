@@ -7,3 +7,4 @@
 .import --skip 1 courses.csv Courses
 .import --skip 1 sections.csv Sections
 .import --skip 1 enrollments.csv Enrollments
+.import --skip 1 prerequisites.csv Prerequisites
